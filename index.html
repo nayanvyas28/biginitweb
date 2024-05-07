@@ -22,6 +22,12 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="demos/data-analysis/data-analysis.css" />
+    <style>
+body {
+        cursor: none;
+    }
+
+    </style>
 </head>
 
 <body data-mobile-nav-style="full-screen-menu" data-mobile-nav-bg-color="#353642"
@@ -163,7 +169,19 @@
                     </div>
                     <div class="outside-box-right-20 text-end position-relative z-index-9 animation-float">
                         <!-- <img style="height: 1000px; width: 1000px; padding: 25px; margin-right: 400px;" src="images/BigInIT-3D-Crystal-OrangeRedVoiletWhite.png" alt=""> -->
-                        <img style=" float: left;" src="images/Girl Standing Website.png" alt="">
+                        <img id="hoverGlow" style=" float: left;" src="images/Girl Standing Website.png" alt="">
+                        <!-- <img style="float: left;" src="images/Girl Standing Website.png" alt="" onmouseover="this.src='images\Standing Girl Glow Bulb.png'" onmouseout="this.src='images/Girl Standing Website.png'">
+
+                        <script>
+                            function preloadImage(img, src) {
+                                var tempImg = new Image();
+                                tempImg.onload = function() {
+                                    img.src = src;
+                                };
+                                tempImg.src = src;
+                            }
+                        </script> -->
+
                     </div>
                 </div>
             </div>
