@@ -52,28 +52,27 @@
 </head>
 <style>
     .popup {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background-color: #f0f0f0;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
+        display: none;
+        position: fixed;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background-color: #f0f0f0;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
 
-.popup p {
-    margin: 0;
-}
+    .popup p {
+        margin: 0;
+    }
 
-.popup .close {
-    position: absolute;
-    top: 5px;
-    right: 10px;
-    cursor: pointer;
-}
-
+    .popup .close {
+        position: absolute;
+        top: 5px;
+        right: 10px;
+        cursor: pointer;
+    }
 </style>
 
 <body data-mobile-nav-style="full-screen-menu" data-mobile-nav-bg-color="#353642"
@@ -304,8 +303,8 @@
                         <div class="row justify-content-center">
                             <div class="col-12 text-center mb-3">
                                 <h2 class="fw-700 alt-font text-dark-gray ls-minus-1px"><span
-                                        class="text-highlight">Apply <span
-                                            class="bg-base-color opacity-3 h-10px bottom-10px"></span>Here..</span></h2>
+                                        class="text-highlight">Contact <span
+                                            class="bg-base-color opacity-3 h-10px bottom-10px"></span>Us..</span></h2>
                             </div>
                         </div>
                         <form
@@ -350,30 +349,33 @@
                                 </div>
                                 <div class="col-md-6">
                                     <label for="exampleInputEmail1"
-                                        class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-600 mb-0">Domain
-                                        Of Interest<span style="color: red;">*</span></label>
+                                        class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-600 mb-0">
+                                        Organization Name <span
+                                            style="color: rgb(167, 167, 167); text-transform: lowercase;">(Optional)</span></label>
                                     <div class="position-relative form-group mb-25px">
-                                        <span class="form-icon"><i class="bi bi-journals"></i></span>
+                                        <span class="form-icon"><i class="bi bi-building"></i></i></span>
                                         <input
                                             class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control"
                                             id="doi" type="text" required name="entry.4474531"
-                                            placeholder="Enter domain: Web dev, AI/Ml etc." required />
+                                            placeholder="If any... " />
 
                                     </div>
                                 </div>
-                                <div class="col-md-6">
+                                <div class="col-12 mb-35px">
                                     <label for="exampleInputEmail1"
-                                        class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-600 mb-0">Programming
-                                        Languages (separated with commas)<span style="color: red;">*</span></label>
-                                    <div class="position-relative form-group mb-25px">
-                                        <span class="form-icon"><i class="fa-solid fa-code"></i></span>
-                                        <input
-                                            class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control"
-                                            id="Programming" type="text" required name="entry.1844560769"
-                                            placeholder="you know respective to your domain of interests. " required />
-
+                                        class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-600 mb-0">Details
+                                        <span style="color: red;">*</span> </label>
+                                    <div class="position-relative form-group form-textarea mb-0"
+                                        data-quillbot-parent="ndbsMm53IUsz4FAF5zp5a">
+                                        <quillbot-extension-highlights data-element-id="ndbsMm53IUsz4FAF5zp5a"
+                                            data-element-type="text"  style="display: initial; visibility: initial; opacity: initial; clip-path: initial; position: relative; float: left; top: 0px; left: 0px; z-index: 1 !important; pointer-events: none;"></quillbot-extension-highlights>
+                                        <textarea class="ps-0 border-radius-0px border-color-extra-medium-gray bg-transparent form-control"
+                                            name="comment" placeholder="How we help you" rows="4"
+                                            data-gramm="false" wt-ignore-input="true" data-quillbot-element="ndbsMm53IUsz4FAF5zp5a"></textarea>
+                                        <span class="form-icon"><i class="bi bi-chat-square-dots"></i></span>
                                     </div>
                                 </div>
+                                <!--   </div>
                                 <div class="col-md-6">
                                     <label for="exampleInputEmail1"
                                         class="form-label fs-14 text-uppercase text-dark-gray primary-font fw-600 mb-0">Live
@@ -412,30 +414,33 @@
                                             id="pdf" type="text" required name="entry.971347264"
                                             placeholder="Select Your intrest" required />
 
-                                    </div>
+                                    </div> -->
 
-                                </div>
-                                <div class="col-xl-7 col-md-8 text-center text-md-start sm-mb-25px">
-                                    <p class="mb-0 fs-14 lh-24 w-85 md-w-100">We are committed to protecting your
-                                        privacy. We will never collect information about you without your explicit
-                                        consent.</p>
-                                </div>
-                                <div class="col-xl-5 col-md-4 text-center text-md-end">
-                                    <button onclick="submitForm()" class="btn btn-small btn-dark-gray btn-box-shadow btn-round-edge submit" type="button">Send message</button>
-                                </div>
-                                
+                            <!-- </div> -->
+                            <div class="col-xl-7 col-md-8 text-center text-md-start sm-mb-25px">
+                                <p class="mb-0 fs-14 lh-24 w-85 md-w-100">We are committed to protecting your
+                                    privacy. We will never collect information about you without your explicit
+                                    consent.</p>
 
                             </div>
-
-                            <div class="col-12">
-                                <div class="form-results mt-20px d-none"></div>
+                            <div class="col-xl-5 col-md-4 text-center text-md-end">
+                                <button onclick="submitForm()"
+                                    class="btn btn-small btn-dark-gray btn-box-shadow btn-round-edge submit"
+                                    type="button">Send message</button>
                             </div>
+
 
                     </div>
 
-                    </form>
+                    <div class="col-12">
+                        <div class="form-results mt-20px d-none"></div>
+                    </div>
+
                 </div>
+
+                </form>
             </div>
+        </div>
         </div>
         <div class="row align-items-center justify-content-center mt-5 sm-mt-40px">
             <div class="col-md-auto text-center text-md-end sm-mb-20-5px"
@@ -457,8 +462,8 @@
                                 class="fa-brands fa-twitter"></i><span></span></a></li>
                     <li class="m-0"><a class="instagram" href="http://www.instagram.com/_biginit" target="_blank"><i
                                 class="fa-brands fa-instagram"></i><span></span></a></li>
-                    <li class="m-0"><a class="linkedin" href="https://www.linkedin.com/company/biginit/" target="_blank"><i
-                                class="fa-brands fa-linkedin-in"></i><span></span></a></li>
+                    <li class="m-0"><a class="linkedin" href="https://www.linkedin.com/company/biginit/"
+                            target="_blank"><i class="fa-brands fa-linkedin-in"></i><span></span></a></li>
                 </ul>
             </div>
         </div>
@@ -489,21 +494,19 @@
             <div class="row align-items-center">
                 <!-- start footer column -->
                 <div class="col-12 col-lg-auto md-mb-15px text-center text-lg-start">
-                    <a href="index.html" class="footer-logo"><img
-                            src="images/favicon-BigInIT.png" 
+                    <a href="index.html" class="footer-logo"><img src="images/favicon-BigInIT.png"
                             data-at2x="images/favicon-BigInIT.png" alt=""></a>
                 </div>
                 <!-- end footer column -->
                 <!-- start footer column -->
-                 <div class="col">
+                <div class="col">
                     <ul class="footer-navbar fs-18 alt-font fw-600 text-center text-lg-end">
                         <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
                         <li class="nav-item"><a href="about.html" class="nav-link">About</a></li>
                         <li class="nav-item"><a href="what-we-do.html" class="nav-link">What we
                                 do</a></li>
                         <!-- <li class="nav-item"><a href="cases.html" class="nav-link">Cases</a></li> -->
-                        <li class="nav-item"><a href="testimonials.html"
-                                class="nav-link">Testimonials</a></li>
+                        <li class="nav-item"><a href="testimonials.html" class="nav-link">Testimonials</a></li>
                         <li class="nav-item"><a href="pricing.html" class="nav-link">Pricing</a></li>
                         <li class="nav-item"><a href="hiring.html" class="nav-link">Carrer</a></li>
                         <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
@@ -539,9 +542,9 @@
                                     class="fa-brands fa-linkedin-in"></i></a></li>
                     </ul>
                 </div>
-                </div>
-                <!-- end footer column -->
             </div>
+            <!-- end footer column -->
+        </div>
         </div>
     </footer>
     <!-- end footer -->
@@ -559,28 +562,28 @@
         src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCA56KqSJ11nQUw_tXgXyNMiPmQeM7EaSA&callback=initMap"></script>
     <script type="text/javascript" src="js/main.js"></script>
     <script>
-    function submitForm() {
-        // Get all input fields
-        var inputs = document.querySelectorAll('input');
-    
-        // Check if all input fields are filled
-        var allFilled = true;
-        inputs.forEach(function(input) {
-            if (input.value === '') {
-                allFilled = false;
-                return;
+        function submitForm() {
+            // Get all input fields
+            var inputs = document.querySelectorAll('input');
+
+            // Check if all input fields are filled
+            var allFilled = true;
+            inputs.forEach(function (input) {
+                if (input.value === '') {
+                    allFilled = false;
+                    return;
+                }
+            });
+
+            // If all fields are filled, show success message, else show error message
+            if (allFilled) {
+                alert('Submitted successfully');
+            } else {
+                alert('Please fill in all fields');
             }
-        });
-    
-        // If all fields are filled, show success message, else show error message
-        if (allFilled) {
-            alert('Submitted successfully');
-        } else {
-            alert('Please fill in all fields');
         }
-    }
     </script>
-    
+
 
 </body>
 
