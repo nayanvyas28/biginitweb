@@ -28,7 +28,7 @@
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
-    "browser-sync": "^2.29.3",
+    "browser-sync": "^3.0.2",
     "gulp-minify-css": "^1.2.4",
     "gulp-update": "^0.0.2"
   }
