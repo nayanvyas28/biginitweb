@@ -9389,6 +9389,46 @@ button:focus {
   margin-right: 10px;
   margin: 0 10px;
 }
+
+.selectnav {
+  background-color: #f0f0f0; /* Default background color */
+  color: #333; /* Default text color */
+  border: none; /* Remove border */
+  /* padding: 10px; /*Add padding for better spacing */
+  border-radius: 4px; /* Optional: Add rounded corners */
+  font-size: 16px; /* Adjust font size */
+  cursor: pointer; /* Make it look clickable */
+  -webkit-appearance: none; /* Remove default styling in WebKit browsers */
+  -moz-appearance: none; /* Remove default styling in Firefox */
+  appearance: none; /* Remove default styling in other browsers */
+  outline: none; /* Remove focus outline */
+}
+
+.selectnav:hover {
+  background-color: transparent; /* Change background color on hover */
+}
+
+.selectnav:focus {
+  border: none; /* Ensure no border appears on focus */
+  outline: none; /* Remove any outline on focus */
+}
+
+.selectnav option {
+  background-color: #fff; /* Option background color */
+  color: #333; /* Option text color */
+}
+
+/* Optional: Hover effect for dropdown options */
+.selectnav option:hover {
+  background-color: rgb(235, 130, 130) ;}
+
+/* To prevent any outline or border upon clicking */
+.selectnav:active, .selectnav:focus-visible {
+  outline: none;
+  border: none;
+}
+
+
 /* ===================================
     13. Elements
 ====================================== */
@@ -19135,6 +19175,8 @@ canvas {
   -webkit-transition-delay: 0.2s;
   transition-delay: 0.2s;
 }
+
+
 /* ===================================
    17. Footer
 ====================================== */
