@@ -9391,7 +9391,7 @@ button:focus {
 }
 
 .selectnav {
-  background-color: #f0f0f0; /* Default background color */
+  background-color: transparent; /* Default background color */
   color: #333; /* Default text color */
   border: none; /* Remove border */
   /* padding: 10px; /*Add padding for better spacing */
@@ -9414,7 +9414,7 @@ button:focus {
 }
 
 .selectnav option {
-  background-color: #fff; /* Option background color */
+  background-color: transparent; /* Option background color */
   color: #333; /* Option text color */
 }
 
