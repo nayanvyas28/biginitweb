@@ -90,10 +90,10 @@ if( ! empty( $_POST['email'] ) ) {
 			$mail = new PHPMailer\PHPMailer\PHPMailer();
 
 			$mail->isSMTP();
-			$mail->Host     = 'YOUR_SMTP_HOST'; // Your SMTP Host
+			$mail->Host     = 'smtp.hostinger.com'; // Your SMTP Host
 			$mail->SMTPAuth = true;
-			$mail->Username = 'YOUR_SMTP_USERNAME'; // Your Username
-			$mail->Password = 'YOUR_SMTP_PASSWORD'; // Your Password
+			$mail->Username = 'support@biginit.in'; // Your Username
+			$mail->Password = 'Password@BigInIT1'; // Your Password
 			$mail->SMTPSecure = 'ssl'; // Your Secure Connection
 			$mail->Port     = 465; // Your Port
 			$mail->setFrom( $from, $name );
